@@ -1,0 +1,123 @@
+.main{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14px;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title{
+    margin-top: 5px ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.heading{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 68px;
+} 
+
+.subheadline{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.subheadline-a{
+    flex:1;
+    margin:10px;
+    position: relative;
+}
+.poly{
+    -webkit-clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+    background-color: rgb(175, 6, 6);
+    color: white;
+    font-size:90px bold;
+    padding-right: 2px;
+    padding-left: 5px;
+    width: 65px;
+    height:20px;
+    margin:0px;
+    position: absolute;
+    top: -10px;
+}
+.subheadline-img{
+    flex:1.4;
+    margin:10px;
+    background-color: thistle;
+    position: relative;
+}
+.page{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+    width: 35px;
+    padding-top: 5px;
+    color: white;
+    position: absolute;
+    bottom: 70px; 
+    right: 15px;
+}
+.bottom-right {
+    position: absolute;
+    color:white;
+    width: 190px;
+     bottom: 5px; 
+     right: 12px;
+  }
+
+.trending{
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+
+.highlight{
+    font-size: 19px;
+    color: rgb(196, 13, 49);
+    text-align: center;
+}
+
+.trending-a{
+    flex:1;
+    padding: 3px;
+    position: relative;
+}
+
+.trending-b{
+    flex:1;
+    padding: 3px;
+    position: relative;
+}
+
+.trending-c{
+    flex:1;
+    padding: 3px;
+    position: relative;
+}
+.img-page-no{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    height: 30px;
+    width: 35px;
+    padding-top: 6px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top:95px;
+}
